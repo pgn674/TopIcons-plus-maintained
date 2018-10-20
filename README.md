@@ -29,7 +29,7 @@ TopIcons Plus Maintained requires GNOME Shell 3.16 or newer, and has been tested
 
 ### Get it from the extensions website
 
-Point your web browser to the TopIcons Plus Maintained page on the [GNOME Shell Extensions website](https://extensions.gnome.org/extension/1031/topicons/). GNOME uses a browser addon, which should have come with your Linux distro, to provide a web interface to the extensions manager on your system. Currently, only Firefox is supported, but support for other browsers is in the works. The first time you visit this website, you should be prompted to enable this browser addon -- [see the FAQs](https://extensions.gnome.org/about/#no-detection) if you have any issues, then go back to the TopIcons Plus page.
+Point your web browser to the TopIcons Plus Maintained page on the [GNOME Shell Extensions website](https://extensions.gnome.org/extension/0/topicons-plus-maintained/). GNOME uses a browser addon, which should have come with your Linux distro, to provide a web interface to the extensions manager on your system. Currently, only Firefox is supported, but support for other browsers is in the works. The first time you visit this website, you should be prompted to enable this browser addon -- [see the FAQs](https://extensions.gnome.org/about/#no-detection) if you have any issues, then go back to the TopIcons Plus Maintained page.
 
 All you have to do next is click the switch on the extension page from off to on.
 
@@ -60,14 +60,14 @@ Download the code to any folder, using git:
 git clone https://github.com/pgn674/TopIcons-plus-maintained.git
 ```
 
-Go into the TopIcons Plus project directory and execute the installation script.
+Go into the TopIcons Plus Maintained project directory and execute the installation script.
 
 ```bash
-cd TopIcons-plus
+cd TopIcons-plus-maintained
 make install
 ```
 
-This will compile the glib schemas and copy all the necessary files to the GNOME Shell extensions directory for your own user account (so you don't need admin privileges to run `make`). By default, TopIcons Plus will live in the directory `~/.local/share/gnome-shell/extensions/TopIcons-plus-maintained@pgn674.com/`.
+This will compile the glib schemas and copy all the necessary files to the GNOME Shell extensions directory for your own user account (so you don't need admin privileges to run `make`). By default, TopIcons Plus Maintained will live in the directory `~/.local/share/gnome-shell/extensions/TopIcons-plus-maintained@pgn674.com/`.
 
 If you want to install the extension so that it will be usable system-wide, you'll have to change the `INSTALL_PATH` variable, and run as root.
 
@@ -79,13 +79,13 @@ Now, reload GNOME Shell. You can either hit <kbd>Alt</kbd>+<kbd>F2</kbd>, type `
 
 ![Reload Gnome](https://raw.githubusercontent.com/pgn674/TopIcons-plus-maintained/master/screenshots/reload.png)
 
-Finally, launch the *gnome-tweak-tool* utility to manage extensions. There, you can enable *TopIcons Plus* and then tweak its look and feel.
+Finally, launch the *gnome-tweak-tool* utility to manage extensions. There, you can enable *TopIcons Plus Maintained* and then tweak its look and feel.
 
 ![Enable TopIcons](https://raw.githubusercontent.com/pgn674/TopIcons-plus-maintained/master/screenshots/tweak.png)
 
 ## Known issues
 
-GNOME Shell by default now runs on top of [Wayland](https://wayland.freedesktop.org/) by default, as of release 3.22. However, there are still some remaining bugs, as not all applications, particularly non-GNOME apps, have adapted to Wayland yet. These really have nothing to do with TopIcons Plus itself, but we do have a [GitHub Issue to keep track of workarounds](https://github.com/pgn674/TopIcons-plus-maintained/issues/47) while we wait for the different app developers to catch up with the new graphics backend.
+GNOME Shell by default now runs on top of [Wayland](https://wayland.freedesktop.org/) by default, as of release 3.22. However, there are still some remaining bugs, as not all applications, particularly non-GNOME apps, have adapted to Wayland yet. These really have nothing to do with TopIcons Plus Maintained itself, but we do have a [GitHub Issue to keep track of workarounds](https://github.com/pgn674/TopIcons-plus-maintained/issues/47) while we wait for the different app developers to catch up with the new graphics backend.
 
 ## Credits
 

@@ -15,8 +15,8 @@ function init() {
     Convenience.initTranslations();
 }
 
-const TopIconsPlusSettings = new GObject.Class({
-    Name: 'TopIconsPlusPrefs',
+const TopIconsPlusMaintainedSettings = new GObject.Class({
+    Name: 'TopIconsPlusMaintainedPrefs',
     Extends: Gtk.Grid,
 
     _init: function(params) {
@@ -180,7 +180,7 @@ const TopIconsPlusSettings = new GObject.Class({
 });
 
 function buildPrefsWidget() {
-     let widget = new TopIconsPlusSettings();
+     let widget = new TopIconsPlusMaintainedSettings();
      widget.show_all();
 
      return widget;
