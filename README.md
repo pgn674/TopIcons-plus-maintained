@@ -29,7 +29,7 @@ TopIcons Plus Maintained requires GNOME Shell 3.16 or newer, and has been tested
 
 ### Get it from the extensions website
 
-Point your web browser to the TopIcons Plus Maintained page on the [GNOME Shell Extensions website](https://extensions.gnome.org/extension/0/topicons-plus-maintained/). GNOME uses a browser addon, which should have come with your Linux distro, to provide a web interface to the extensions manager on your system. Currently, only Firefox is supported, but support for other browsers is in the works. The first time you visit this website, you should be prompted to enable this browser addon -- [see the FAQs](https://extensions.gnome.org/about/#no-detection) if you have any issues, then go back to the TopIcons Plus Maintained page.
+Point your web browser to the TopIcons Plus Maintained page on the [GNOME Shell Extensions website](https://extensions.gnome.org/extension/1493/topicons-plus-maintained/). GNOME uses a browser addon, which should have come with your Linux distro, to provide a web interface to the extensions manager on your system. Currently, only Firefox is supported, but support for other browsers is in the works. The first time you visit this website, you should be prompted to enable this browser addon -- [see the FAQs](https://extensions.gnome.org/about/#no-detection) if you have any issues, then go back to the TopIcons Plus Maintained page.
 
 All you have to do next is click the switch on the extension page from off to on.
 
