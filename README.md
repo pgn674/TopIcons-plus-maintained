@@ -67,7 +67,7 @@ cd TopIcons-plus
 make install
 ```
 
-This will compile the glib schemas and copy all the necessary files to the GNOME Shell extensions directory for your own user account (so you don't need admin privileges to run `make`). By default, TopIcons Plus will live in the directory `~/.local/share/gnome-shell/extensions/TopIcons@phocean.net/`.
+This will compile the glib schemas and copy all the necessary files to the GNOME Shell extensions directory for your own user account (so you don't need admin privileges to run `make`). By default, TopIcons Plus will live in the directory `~/.local/share/gnome-shell/extensions/TopIcons-plus-maintained@pgn674.com/`.
 
 If you want to install the extension so that it will be usable system-wide, you'll have to change the `INSTALL_PATH` variable, and run as root.
 

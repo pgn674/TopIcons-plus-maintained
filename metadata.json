@@ -13,7 +13,7 @@
     "3.26"
   ], 
   "settings-schema": "org.gnome.shell.extensions.topicons",
-  "url": "https://github.com/phocean/TopIcons-plus",
-  "uuid": "TopIcons@phocean.net",
+  "url": "https://github.com/pgn674/TopIcons-plus-maintained",
+  "uuid": "TopIcons-plus-maintained@pgn674.com",
   "version": 21
 }

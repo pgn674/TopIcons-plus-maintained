@@ -1,9 +1,10 @@
 /*
-Copyright (C) phocean <jc@phocean.net>
+Copyright (C) pgn674 <contact@pgn674.com>
 
 Credits to:
  - "ag" for the original extension,
- - "Mjnaderi" for the Toptray first fork.
+ - "Mjnaderi" for the Toptray first fork,
+ - "phocean" for the TopIcons Plus fork.
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
